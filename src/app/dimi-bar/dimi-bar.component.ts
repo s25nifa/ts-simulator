@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./dimi-bar.component.css'],
 })
 export class DimiBarComponent implements OnInit {
-  quoteCount = 0;
+  quoteCount = 1;
 
   constructor(private router: Router) {}
 

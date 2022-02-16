@@ -21,17 +21,10 @@ router-outlet + * {
   padding: 0 16px;
 }
 
-/* Text */
-
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  font-size: 48px;
-}
+/* Quote */
 
 div.quote {
+  font-size: 48px;
   text-align: center;
   width: 100%;
   padding: 16px;
@@ -41,9 +34,9 @@ div.quote {
 
 app-dimi-bar {
   width: 100%;
-  height: 144px;
+  height: 150px;
   background-color: #15dab9;
-  padding: 16px;
+  padding: 22px 0 22px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -51,6 +44,8 @@ app-dimi-bar {
 }
 
 app-dimi-bar h1 {
+  font-size: 36px;
+  padding-bottom: 8px;
   color: white;
   margin: 0;
 }
@@ -65,7 +60,7 @@ app-dimi-bar h1 {
   display: inline-flex;
   align-items: center;
   padding: 8px 16px;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
   background-color: #fbfcfd;
   color: rgb(73, 71, 71);
